@@ -8,6 +8,7 @@ public static void main(String[] args) {
     List<String> lista = new ArrayList<>();
     lista.add ("0");   
     lista.add ("carlos");
+    lista .add ("ana");
        
     int chamada = 1;
     String nome = lista.get(chamada);
