@@ -14,32 +14,26 @@ public class Pratica {
             
             System.out.println("Digite outro número:");
             double b = Integer.parseInt(scanner.nextLine());
-            
-            if (operação.equals("/")) {
-                double dividir = dividir(a,b);
-                System.out.println(dividir);
-                scanner.close();
+
+            switch (operação) {
+                case "/":
+                    System.out.println(dividir(a, b));
+                    break;
+                case "*":
+                    System.out.println(multiplicar(a, b));
+                    break;
+                case "+":
+                    System.out.println(somar(a, b));
+                    break;
+                case "-":
+                    System.out.println(subtrair(a, b));
+                    break;
+                default:
+                    System.out.println("Operação inválida");
             }
-            else if (operação.equals("*")) {
-                double multiplicar = multiplicar(a,b);
-                System.out.println(multiplicar);
-                scanner.close();
-            }
-            else if (operação.equals("+")) {
-                double somar = somar(a,b);
-                System.out.println(somar);
-                scanner.close();
-            }
-            else if (operação.equals("-")) {
-                double subtrair = subtrair(a,b);
-                System.out.println(subtrair);
-                scanner.close();
-            }
-            else {
-                System.out.println("Operação inválida");
-                scanner.close();
-            }
-            
+
+            scanner.close();
+
         }
 
         public static double dividir(double a, double b) throws Exception {
