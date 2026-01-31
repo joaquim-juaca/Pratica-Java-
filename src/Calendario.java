@@ -22,7 +22,7 @@ public class Calendario {
             System.out.println( "Março");
             nome= "março";
              break;
-            case 4: 
+            case 4:  
             System.out.println( "Abril");
             nome= "abril";
             break;
