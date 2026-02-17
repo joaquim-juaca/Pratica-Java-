@@ -1,3 +1,4 @@
+package ExerciciosCurso;
 import java.util.Scanner;
 public class Calendario {
     public static void main(String[] args) {

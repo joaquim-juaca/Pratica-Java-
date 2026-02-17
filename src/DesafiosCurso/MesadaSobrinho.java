@@ -1,3 +1,4 @@
+package DesafiosCurso;
 import java.util.Scanner; 
     
 public class MesadaSobrinho {
