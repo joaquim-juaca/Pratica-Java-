@@ -38,18 +38,14 @@ public class Calculadora {
                 throw new Exception("Divisão por zero não é permitida.");
             }
             return a / b;
-            // método de teste
         }
         public static double somar(double a, double b) throws Exception {
             return a + b;
-            // método de teste
         }
         public static double multiplicar(double a, double b) throws Exception {
             return a * b;
-            // método de teste
         }
         public static double subtrair(double a, double b) throws Exception {
             return a - b;
-            // método de teste
-        }    
+        }       
 }
