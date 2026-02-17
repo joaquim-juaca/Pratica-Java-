@@ -6,5 +6,6 @@ public class App {
         System.out.println("Seja bem-vindo a nossa empresa " + funcionario);
         System.out.println("Seu salario é : " + salario);
         System.out.println("Operando na função de : " + função);
+        System.out.println("Desejamos a você um ótimo trabalho");
     }
 }
