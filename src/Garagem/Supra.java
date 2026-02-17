@@ -1,8 +1,8 @@
-package Veiculos;
+package Garagem;
 
 public class Supra {
     public static void main(String[] args) {
-        Carro supra = new Carro();
+        Veiculos supra = new Veiculos();
         supra.modelo = "Supra";
         supra.gasolina = 20;
         supra.tamTanque = 60;

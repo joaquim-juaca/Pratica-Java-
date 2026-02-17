@@ -1,7 +1,7 @@
-package Veiculos;
+package Garagem;
 import java.util.Scanner;
 
-class Carro {
+class Veiculos {
     int gasolina;
     int tamTanque;
     boolean motorLigado;
@@ -40,3 +40,5 @@ class Carro {
         System.out.println("Motor ligado: " + (motorLigado ? "Sim" : "Não"));
     }
 }
+
+class Moto extends Veiculos {}
