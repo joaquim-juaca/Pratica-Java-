@@ -8,24 +8,13 @@ public class Excução {
         supra.tamTanque = 60;
         supra.motorLigado = false;
         supra.consumo = 10;
-
-        supra.andar();
-        supra.status();
-        supra.EncherTanque();
-        supra.status();
-        
+  
         Moto r15 = new Moto();
         r15.modelo = "R15";
         r15.gasolina = 10;
         r15.tamTanque = 20;
         r15.motorLigado = false;
         r15.consumo = 20;
-
-        r15.andar();
-        r15.status();
-        r15.EncherTanque();
-        r15.status();
-
     }
 
 }
