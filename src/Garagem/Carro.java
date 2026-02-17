@@ -1,7 +1,7 @@
 package Garagem;
 import java.util.Scanner;
 
-class Veiculos {
+class Carro {
     int gasolina;
     int tamTanque;
     boolean motorLigado;
@@ -41,4 +41,3 @@ class Veiculos {
     }
 }
 
-class Moto extends Veiculos {}
