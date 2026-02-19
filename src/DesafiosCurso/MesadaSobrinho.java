@@ -8,9 +8,5 @@ public class MesadaSobrinho {
         int mesada = 50;
         System.out.println("Voce tera " + (mesada * entrada) + " reais");
         leitor.close();
-        
-        
-        // TODO: Crie a condição necessária para que o sobrinho saiba quanto dinheiro irá juntar nos meses da entrada
-
     }
 }

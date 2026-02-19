@@ -12,8 +12,5 @@ public class MultasVelocidade {
             System.out.println("Nao foi multado");
         }   
         leitor.close();
-        
-        // TODO: Crie a condição necessária para verificar se o motorista, de acordo com a entrada, foi multado ou não.
-
     }
 }

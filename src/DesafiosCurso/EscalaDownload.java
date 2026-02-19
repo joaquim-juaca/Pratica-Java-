@@ -54,7 +54,5 @@ public class EscalaDownload {
                 scanner.close();
                 break;
         }  
-        //TODO: Crie a condição necessária para que, de acordo com o tamanho, seja printado no console barras representando o download
-
     }
 }

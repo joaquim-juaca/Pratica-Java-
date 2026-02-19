@@ -11,6 +11,5 @@ public class TempoLeitura {
         System.out.println(tempo + " dias");
         leitor.close();
 
-        // TODO: Crie a condição necessária para que Getrudes saiba em quanto tempo terminará seus livros
     }
 }
