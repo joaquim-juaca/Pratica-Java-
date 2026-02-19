@@ -32,20 +32,20 @@ public class Excução {
         lista.add(localidade2);
 
         System.out.println("Escolha o veículo para dirigir: ");
-        System.out.println("[1]- Toyota Supra MK4" +
+        System.out.println("\n[1]- Toyota Supra MK4" +
                            "\n[2] - Yamaha R15\n"); 
-
-        while (true){
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
             String escolha = scanner.nextLine();
+            
+        while (true){
             switch (escolha) {
                 case "1":
-                    System.out.println("[1] Status do veiculo" + 
+                    System.out.println("\n[1] Status do veiculo" + 
                         "\n[2] Ligar/Desligar motor"+ 
                         "\n[3] Andar com o carro" +
                         "\n[4] encher o tanque do carro"+
-                        "\n[5] Sair");
-                        String opcao1 = scanner.nextLine();
+                        "\n[5] Sair\n");
+                    String opcao1 = scanner.nextLine();
                     switch (opcao1) {
                         case "1":
                             supra.status();
@@ -66,15 +66,15 @@ public class Excução {
                             return;
                         default:
                             System.out.println("Opção inválida, tente novamente.");
-                            scanner.close();
                             break;
                     }
+                    break;  
                 case "2":
-                    System.out.println(" [1] Status da moto" +
+                    System.out.println("\n[1] Status da moto" +
                         "\n[2] Ligar/Desligar motor"+ 
                         "\n[3] Andar com a moto" +
                         "\n[4] encher o tanque da moto"+
-                        "\n[5] Sair");
+                        "\n[5] Sair\n");
                     String opcao2 = scanner.nextLine();
                     switch (opcao2) {
                         case "1":
@@ -97,17 +97,9 @@ public class Excução {
                         default:
                             System.out.println("Opção inválida, tente novamente.");
                             break;
-                    }
-                    scanner.close();
-                    break;
-                default:
-                    System.out.println("Opção inválida, tente novamente.");
-                    scanner.close();
-                    break;
+                }
             }
-        }
-        
-
+        }     
     }
 
 }
