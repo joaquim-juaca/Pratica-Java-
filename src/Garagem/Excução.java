@@ -33,14 +33,14 @@ public class Excução {
 
         System.out.println("Escolha o veículo para dirigir: ");
         System.out.println("[1]- Toyota Supra MK4" +
-                           "\n[2] - Yamaha R15"); 
+                           "\n[2] - Yamaha R15\n"); 
 
         while (true){
             Scanner scanner = new Scanner(System.in);
             String escolha = scanner.nextLine();
             switch (escolha) {
                 case "1":
-                    System.out.println(" [1] Status do veiculo" + 
+                    System.out.println("[1] Status do veiculo" + 
                         "\n[2] Ligar/Desligar motor"+ 
                         "\n[3] Andar com o carro" +
                         "\n[4] encher o tanque do carro"+
